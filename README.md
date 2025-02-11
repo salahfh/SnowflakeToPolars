@@ -12,3 +12,15 @@ df = sp.run_sql(query)
 print(df)
 
 ```
+
+## .env File
+
+A `.env` should be created in the project directory with the follow keys:
+
+```
+USERNAME="USERNAME"
+ACCOUNT="ACCOUNT"
+PASSWORD="PASSWORD"
+```
+
+`ACCOUNT` is from the URL `<ACCOUNT>.snowflakecomputing.com`
